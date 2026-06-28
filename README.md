@@ -15,9 +15,9 @@ Leading firmware and frontend engineering teams building mesh WiFi platforms for
 | Project | Description | Stack |
 |---------|-------------|-------|
 | [KAI](https://github.com/kai-cli/kai) | Public Claude Code infrastructure with skills, hooks, agents, memory systems, security guards, and workflow orchestration | TypeScript, Bun, Claude Code |
+| [AgentOps Workbench](https://github.com/DevenDucommun/agentops-workbench) | Local observability, risk analysis, and audit reports for AI coding-agent runs | TypeScript, Bun, SQLite |
 | [LocalAIbundle](https://github.com/DevenDucommun/LocalAIbundle) | Zero-cloud local AI coding assistant for macOS Apple Silicon | Shell, Ollama, Qwen2.5-Coder |
 | [Router Security Tool](https://github.com/DevenDucommun/router-security-tool) | Full-stack security assessment platform for network devices | Python, FastAPI, React, WebSocket |
-| [Android Crash Monitor](https://github.com/DevenDucommun/android-crash-monitor-py) | Cross-platform crash monitoring with real-time log analysis and pattern detection | Python, Click, Rich, SQLite, PyInstaller |
 
 ## Tech Stack
 
