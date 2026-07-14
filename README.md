@@ -34,7 +34,7 @@ Security:    SSH hardening, vulnerability scanning, PKI, device attestation
 
 - Shipping Pinnacle mesh WiFi platforms to ISP customers (UK, UAE)
 - Building KAI and MCP tooling for AI-enabled engineering workflows
-- Contributing to TR-369 (USP) open standard adoption
+- Exploring TR-369 (USP) controller architecture and open standard adoption
 - Applying agentic AI patterns to release planning, diagnostics, documentation, and developer productivity
 
 ---
