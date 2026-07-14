@@ -39,4 +39,6 @@ Security:    SSH hardening, vulnerability scanning, PKI, device attestation
 
 ---
 
+📫 **Contact:** [LinkedIn](https://www.linkedin.com/in/devenducommun/) · [deven@dducommun.com](mailto:deven@dducommun.com)
+
 *Based in the US. Open to conversations about firmware, AI tooling, and engineering leadership.*
