@@ -16,10 +16,10 @@ I also build public developer tools for AI-agent observability, workflow orchest
 
 | Project | Description | Stack |
 |---------|-------------|-------|
-| [AgentOps Workbench](https://github.com/DevenDucommun/agentops-workbench) | Local-first observability, evidence review, and risk analysis for Claude Code and Codex agent runs | TypeScript, Bun, SQLite |
+| [AgentOps Workbench](https://github.com/DevenDucommun/agentops-workbench) | Local-first observability, evidence review, and quality gates for Claude Code and Codex agent runs. v3.2 adds a GitHub Action that fails a PR when an agent run lacks verification evidence | TypeScript, Bun, SQLite, GitHub Actions |
 | [KAI](https://github.com/kai-cli/kai) | Claude Code infrastructure extending PAI with multi-agent orchestration, lifecycle hooks, skills, memory, and security guardrails | TypeScript, Bun, Claude Code |
-| [Router Security Tool](https://github.com/DevenDucommun/router-security-tool) | Full-stack security assessment product with 40+ automated checks and real-time reporting for network devices | Python, FastAPI, React, WebSocket |
-| [LocalAIbundle](https://github.com/DevenDucommun/LocalAIbundle) | Local AI coding stack for Apple Silicon with diagnostics, repair tooling, and offline installation support | Shell, Ollama, Continue.dev |
+| [Router Security Tool](https://github.com/DevenDucommun/router-security-tool) | Security assessment platform for network devices: 40+ SSH checks with vendor profiles, a live web dashboard, scan comparison, one-click fix verification, and parallel fleet scans (v1.1) | Python, FastAPI, React, WebSocket, Docker |
+| [LocalAIbundle](https://github.com/DevenDucommun/LocalAIbundle) | Local AI coding stack for Apple Silicon that picks Qwen3 coding models by available memory (up to Qwen3-Coder-Next), with diagnostics, repair tooling, and offline installation | Shell, Ollama, Continue.dev |
 
 ## Domains and Tools
 
@@ -35,7 +35,8 @@ Identity:     RBAC, API authentication, 802.1X/RADIUS, certificate onboarding
 
 - Owning functional requirements and embedded-software priorities for router products
 - Leading a four-engineer Flutter front-end team
-- Building AgentOps Workbench and KAI as public AI/developer-tooling projects
+- Building AgentOps Workbench — v3.2 shipped `agentops check` as a GitHub Action for gating PRs on agent-run evidence
+- Shipping Router Security Tool v1.1 (scan comparison, fix verification, batch scanning); next up is scheduled scans and CVE correlation
 
 ---
 
